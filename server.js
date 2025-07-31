@@ -4,6 +4,7 @@ import ChatRoutes from './src/routes/ChatRoutes.js';
 
 const PORT = 8000;
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 app.use('/chat', ChatRoutes);
